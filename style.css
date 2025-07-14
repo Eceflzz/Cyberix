@@ -1,0 +1,188 @@
+/* Genel sayfa ayarı */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #9a8876, #784a24);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4e2b19;
+}
+
+/* Login kutusu */
+.login-container {
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.548);
+  background-color: #fbf8f3;
+}
+
+/* Sol taraf */
+.left {
+  flex: 0.6;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #784a24;
+  color: #efe7e3;
+}
+
+.left h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.left p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+/* Sağ taraf */
+.right {
+  flex: 2;
+  background-color: #f5eee5;
+  padding: 20px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 58px;
+  color: #3e2c23;
+}
+
+.right input {
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 15px;
+  border: 2px solid #c2b3a3;
+  border-radius: 100px;
+  width: 40%;
+  background-color: #fdfbf8;
+  color: #3e2c23;
+  outline: none;
+}
+
+.right input::placeholder {
+  color: #a6907d;
+
+}
+
+.right button {
+  margin-top: 20px;
+  margin: 20px auto;
+  padding: 15px;
+  width: 30%;
+  background: linear-gradient(to right, #a47148, #6e3b23);
+  border: none;
+  border-radius: 75px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.right button:hover {
+  background: linear-gradient(to right, #8a5939, #5a2d19);
+}
+
+#error-message {
+  color: #c77474;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.right p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.right a {
+  color: #8a5939;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.right a:hover {
+  text-decoration: underline;
+}
+
+/* Register container */
+.register-container {
+  width: 500px;
+  height: 530px;
+  background-color: #fbf8f3;
+  padding: 40px;
+  border-radius: 20px;
+  color: #3e2c23;
+  box-shadow: 0 0 20px rgba(108, 89, 73, 0.2);
+  margin: auto;
+  margin-top: 75px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center h2 {
+  margin-bottom: 20px;
+}
+
+.center input {
+  margin: 1% auto;
+  padding: 12px;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 2px solid #c2b3a3;
+  background-color: #fdfbf8;
+  color: #3e2c23;
+  outline: none;
+}
+
+.center input::placeholder {
+  color: #a6907d;
+}
+
+.center button {
+  margin-top: 20px;
+  padding: 12px;
+  background: linear-gradient(to right, #a47148, #6e3b23);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+.center button:hover {
+  background: linear-gradient(to right, #8a5939, #5a2d19);
+}
+
+.back-button{
+    background: linear-gradient(to right #a47148, #6e3b23);
+    background-color:  #8a5939;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: x-large;
+    padding: 7px 25px;
+    cursor: pointer;
+    transition: background 0.9s ease;
+}
